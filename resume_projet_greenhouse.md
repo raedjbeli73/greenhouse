@@ -133,16 +133,3 @@ Modifier le titre de chaque carte pour ajouter les points :
 
 > *"Après avoir conçu notre solution avec le Design Thinking, nous avons utilisé la méthode Agile avec Trello pour organiser le développement. Nous avons créé un Product Backlog, rédigé des User Stories, planifié un Sprint de 2 semaines, assigné les tâches et estimé leur difficulté."*
 
----
-
-## ❓ Questions possibles de la prof
-
-| Question | Réponse courte |
-|---|---|
-| C'est quoi un Sprint ? | Une période courte de travail pour réaliser des tâches précises. |
-| C'est quoi un Product Backlog ? | La liste de toutes les fonctionnalités du projet. |
-| Pourquoi Agile ? | Pour mieux organiser, collaborer et améliorer le projet progressivement. |
-| C'est quoi une User Story ? | Une phrase simple qui décrit ce que veut l'utilisateur et pourquoi. |
-| Pourquoi seulement 3 tâches dans le Sprint ? | Car le temps est limité — on choisit les tâches les plus prioritaires. |
-| C'est quoi un framework ? | Un ensemble d'outils et de règles qui aide les développeurs à créer des applications plus rapidement. |
-| Différence brainstorming / SCAMPER ? | Le brainstorming crée des idées, SCAMPER améliore une idée existante. |
