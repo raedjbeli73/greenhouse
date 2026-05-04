@@ -80,9 +80,6 @@ Dans la colonne **To Do**, ajouter les cartes suivantes :
 | Login | 2 pts |
 | Dashboard | 5 pts |
 | Capteurs IoT | 3 pts |
-| Pompe | 3 pts |
-| Notifications | 2 pts |
-| Configuration | 2 pts |
 
 ### Étape 4 — Ajouter les User Stories
 Cliquer sur chaque carte → **Description** → écrire la user story :
@@ -115,8 +112,8 @@ Cliquer sur chaque carte → **Members** → assigner un membre :
 | Tâche | Membre |
 |---|---|
 | Login | Membre 1 |
-| Dashboard | Membre 2 |
-| Capteurs | Membre 3 |
+| Dashboard | Membre 1 |
+| Capteurs | Membre 1 |
 
 ### Étape 8 — Ajouter une date de fin (Due Date)
 Cliquer sur une carte → **Dates** → choisir une date de fin (+14 jours) → **Save**
@@ -128,8 +125,4 @@ Modifier le titre de chaque carte pour ajouter les points :
 - `Dashboard (5 pts)` → difficile
 
 ---
-
-## 🎤 Phrase de conclusion (à dire à l'oral)
-
-> *"Après avoir conçu notre solution avec le Design Thinking, nous avons utilisé la méthode Agile avec Trello pour organiser le développement. Nous avons créé un Product Backlog, rédigé des User Stories, planifié un Sprint de 2 semaines, assigné les tâches et estimé leur difficulté."*
 
