@@ -1,1 +1,25 @@
 
+{
+  "device_id": "greenhouse_01",
+  "timestamp": "2026-05-05T15:00:00Z",
+  "temperature": {
+    "value": 26.3,
+    "unit": "°C"
+  },
+  "humidity": {
+    "value": 58.2,
+    "unit": "%"
+  },
+  "soil_moisture": {
+    "value": 640,
+    "unit": "raw"
+  },
+  "light": {
+    "value": 320,
+    "unit": "lux"
+  },
+  "status": {
+    "irrigation": false,
+    "fan": true
+  }
+}
