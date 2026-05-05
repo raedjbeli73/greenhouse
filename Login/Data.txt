@@ -1,1 +1,46 @@
+#include <stdio.h>
+#include <string.h>
 
+#define MAX 50
+
+int main() {
+    char username[MAX], password[MAX];
+    char file_user[MAX], file_pass[MAX], role[MAX];
+    int found = 0;
+
+    FILE *f = fopen("data.txt", "r");
+    if (f == NULL) {
+        printf("Erreur ouverture fichier\n");
+        return 1;
+    }
+
+    printf("Username: ");
+    scanf("%s", username);
+
+    printf("Password: ");
+    scanf("%s", password);
+
+    while (fscanf(f, "%s %s %s", file_user, file_pass, role) != EOF) {
+        if (strcmp(username, file_user) == 0 &&
+            strcmp(password, file_pass) == 0) {
+
+            found = 1;
+            printf("\nLogin réussi !\n");
+            printf("Role: %s\n", role);
+
+            if (strcmp(role, "admin") == 0) {
+                printf("Accès ADMIN\n");
+            } else {
+                printf("Accès USER\n");
+            }
+            break;
+        }
+    }
+
+    if (!found) {
+        printf("\nLogin incorrect\n");
+    }
+
+    fclose(f);
+    return 0;
+}
