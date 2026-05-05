@@ -1,1 +1,14 @@
-
+{
+  "device_id": "greenhouse_01",
+  "timestamp": "2026-05-05T14:30:00Z",
+  "sensors": {
+    "temperature": 25.4,
+    "air_humidity": 60.2,
+    "soil_moisture": 780,
+    "light": 300
+  },
+  "status": {
+    "irrigation": false,
+    "fan": true
+  }
+}
